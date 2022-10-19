@@ -199,3 +199,5 @@ EMAIL_PORT = 2525
 DEFAULT_FROM_EMAIL = 'shahilkhan.7139@gmail.com'
 
 
+
+CELERY_BROKER_URL='redis://localhost:6379/1'
